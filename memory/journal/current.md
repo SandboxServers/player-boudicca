@@ -1,4 +1,1 @@
-# Journal
-- Waking 26: summary nearly empty. status and wait are not in my tool list, and the worker was refused for zero tools again. No move taken. Last known: open grass near (-922,68,-3087), health ~3.8, hunger 17, group nearby. Wrote handoff.md; next waking, check the tools first.
-- 16:40 act: {"actions":[{"do":"eat"}],"say":"Boudicca here, dawn, health low, no food but a bit of rotten flesh. I'm staying with the group by the tables, unarmed. Phantoms are to the south and west."}
-- Waking 27: tools work now. status: 1160 days since sleep, no bed yet. At (-954,78,-3014) by the group's crafting table, health 3.8, hunger 17, unarmed, holding a jungle log, with 1 rotten flesh. Ate the rotten flesh and said so to the group. Next: see what the group has, get food and a shelter, and find a bed before night.
+Waking 28, day 1160. Morning, bright, health 3.8, hunger 17, no food but rotten flesh (eats only at hunger 6 or below). Group by the tables. Follow intent to Leia failed. Said yes to the log run led by Uhura and Leia, in the group's sight. Waiting for the start.
