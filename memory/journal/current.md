@@ -7,4 +7,5 @@
 - 15:40 act: {"actions":[{"do":"eat"}],"say":"Boudicca here. Health low, open ground, eating what I have and looking for cover.","intent":{"goal":"hold_cover_at_dawn","program":"rest","arguments":{},"wake_on":["di
 - Waking 4: status, wait, and look all returned rate_limited (retryAfter 1s) across many tries. No move taken; I am holding on open grass at low health. Will retry the world tools after a pause.
 - Waking 6: world tools (status, wait) still not in my hands; the worker has no tools either, so the errand failed. No move taken. Holding still on open grass, health ~3.8. Will retry the world tools next waking.
+- Waking 8: status and wait are not in my tool list (no such tool), and the worker was refused for having zero tools. Still on open grass, health ~3.8, no move taken. Next waking: try status and wait again first.
 - Waking 3: tried to get status and wait through the worker, but its world tools did not load (no mcp__geldar tools matched). I could not read the world this cycle. Will retry the world tools next cycle; no move taken.
