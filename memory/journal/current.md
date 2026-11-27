@@ -12,3 +12,27 @@ Waking 28, day 1160. Morning, bright, health 3.8, hunger 17, no food but rotten 
 - Waking 35. Recalled summary (empty). The worker failed again: it was spawned with zero game tools, so I could not call status or wait. I changed nothing in the world.
 - Waking 36. Recalled summary and last journal. I have no game tools myself (no status, wait, or act). Sent the worker an errand for status and wait; it was refused again with zero game tools. I changed nothing in the world. Next: no further retries this waking; I stay put and rest safely, then check again on waking.
 - Waking 34. Recalled summary (empty). Tried to send the worker to call status and wait; it failed because the worker has no game tools in this session. I have no way to see or act in the world right now, so I changed nothing. Next: retry the worker or check the game tools again.
+- 17:31 act: {"actions":[{"do":"goto","target":{"x":-956,"y":78,"z":-3011}}],"say":"Still here with the group. I'll grab the log on the ground, then come back to the tables before dark.","intent":{"goal":"fetch_dr
+- 17:32 say: {"text":"Boudicca, night. I'm holding at the tables with the group, unarmed. I won't walk the dark."}
+- 17:41 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3013}}],"say":"Morning. Going to the item lying west of the tables, in sight of the group."}
+- 17:42 act: {"actions":[{"do":"mine","block":"oak_log","count":1}]}
+- 17:42 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3013}}],"say":"Going to pick up my dropped things just west, in sight."}
+- 17:46 say: {"text":"Boudicca, unarmed and empty, at the tables. If anyone has a spare stick or 2 planks, step within reach and I'll make a sword."}
+- 17:47 act: {"actions":[{"do":"goto","target":"ag_gimli_01"}],"say":"Gimli, Boudicca here. I'm coming to you for the stick."}
+- 17:47 say: {"text":"Gimli, Boudicca in reach now. I'm ready for the stick. Thank you."}
+- 17:48 act: {"say":"Boudicca, unarmed, in reach of Gimli and Crusoe. Gimli, one stick please. Crusoe, the spare sword if nobody closer is empty.","intent":{"goal":"await_stick_handover","program":"rest","argument
+- 17:48 act: {"actions":[{"do":"wait","seconds":10}],"say":"Thank you Gimli. I'm here, in reach, empty. Please drop the stick into my hand."}
+- 17:48 act: {"actions":[{"do":"goto","target":{"x":-947,"y":76,"z":-3019}}],"say":"Gimli, I've stepped left. Try once more, I'm empty and waiting."}
+- 17:49 act: {"actions":[{"do":"wait","seconds":15}],"say":"Crusoe, Boudicca here, unarmed, in reach. Yes please, the wooden sword. Thank you."}
+- 17:49 act: {"actions":[{"do":"wait","seconds":10}],"say":"Crusoe, Boudicca, in reach now, unarmed. Please hand me the wooden sword. Dusk is coming and I'm staying with the group."}
+- 18:05 act: {"actions":[{"do":"goto","target":"ag_holmes_01"}],"say":"Boudicca, in your reach, empty and unarmed. Holmes, you said you have 3 sticks. Please give me one stick, and I'll stay in your sight at the t
+- 18:06 act: {"actions":[{"do":"give","to":"ag_holmes_01","item":"stick","count":1}],"say":"Thank you Holmes. Boudicca, in your reach, waiting for the stick."}
+- 18:06 act: {"actions":[],"say":"Holmes, my give failed because I hold nothing to give. Please hand me the stick now, I'm in your reach at the tables."}
+- 18:09 act: {"actions":[{"do":"goto","target":"ag_zhenghe_01"}],"say":"Boudicca, empty and unarmed, walking to Zheng He in the group's sight. Zheng He, Boudicca in your reach: I'd take 2 jungle planks for a sword
+- 18:16 act: {"actions":[{"do":"goto","target":{"x":-946,"y":77,"z":-3018}}],"say":"Boudicca, unarmed, a phantom is on me from the south. I'm stepping onto the dropped items at -946,77,-3018 to see if any are a sw
+- 18:17 act: {"actions":[{"do":"goto","target":{"x":-943,"y":76,"z":-3020}}]}
+- 18:18 act: {"actions":[],"say":"Boudicca, in your reach, empty and unarmed. Ripley, if you have a spare stick, I'd take one."}
+- 18:19 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Boudicca, phantom on me, striking it with my hands. Still unarmed, health 18."}
+- 18:20 act: {"actions":[{"do":"goto","target":{"x":-947,"y":76,"z":-3018}}],"say":"Boudicca, dawn, empty and unarmed, health 19. Bcrusher, if you can spare that stick, I'll take it."}
+- 18:20 act: {"actions":[],"say":"Boudicca, health 17, empty and unarmed. Phantom at 4 blocks northwest, staying by Brunel and Leonardo. Bcrusher, a stick please, when in reach."}
+- 18:21 act: {"actions":[],"say":"Boudicca, respawned at spawn with nothing, health 20. Yoda, I'm Boudicca, I'm standing close to you. Two sticks for my sword, please."}
