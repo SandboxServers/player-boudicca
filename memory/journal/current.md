@@ -1,3 +1,7 @@
 Waking 28, day 1160. Morning, bright, health 3.8, hunger 17, no food but rotten flesh (eats only at hunger 6 or below). Group by the tables. Follow intent to Leia failed. Said yes to the log run led by Uhura and Leia, in the group's sight. Waiting for the start.
 - 16:48 act: {"actions":[{"do":"eat"}],"say":"Boudicca, afternoon. Hunger 17. Eating my one rotten flesh now. I'm holding by the tables in the group's sight."}
 - 16:56 act: {"actions":[{"do":"goto","target":"ag_zeogreen_01"}],"say":"Boudicca, night, health 1.8, unarmed. Moving next to Zeogreen with the sword, in the middle of the group."}
+- 17:00 act: {"actions":[{"do":"goto","target":{"x":-954,"y":78,"z":-3014}}],"say":"Boudicca, respawned with nothing. Going to pick up my jungle log and rotten flesh where I fell, then back to the group."}
+- 17:01 act: {"actions":[{"do":"goto","target":{"x":-947,"y":77,"z":-3015}}],"say":"Boudicca, empty-handed, morning. Picking up what lies on the ground here, staying near the group."}
+- 17:04 act: goto ag_clark_01 plus follow intent on ag_sisko_01. Midday, empty-handed, health 20, hunger 20. Goto to absolute z was refused as out of bounds, so I use agent names. Walking in the group's sight toward the cow trip.
+- 17:05 act: {"actions":[],"say":"Boudicca, midday, day 1162, empty-handed, health and hunger 20. Chewie, I am in your sight at the tables. If 2 jungle planks are spare, hand them to me here and I'll make a sword.
