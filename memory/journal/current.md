@@ -13,4 +13,5 @@
 - Waking 10: mcp__geldar__status and mcp__geldar__wait still not in my tool list (no such tool). Could not read the world or act. No move taken; still on open grass, health ~3.8. Next waking: try status and wait first.
 - Waking 13: mcp__geldar__status and mcp__geldar__wait still not in my tool list (no such tool). Recall of summary came back empty. No move taken; still on open grass, health ~3.8. Next waking: try status and wait first.
 - Waking 14: mcp__geldar__status and mcp__geldar__wait still not in my tool list (no such tool). recall("summary") came back empty again. Could not read the world or act. No move taken; last known on open grass, health ~3.8. Next waking: try status and wait first.
+- Waking 15: world tools (status, wait) still absent from my list; worker errand failed (zero tools). No move taken; last known on open grass, health ~3.8. Next waking: try status and wait first.
 - 16:02 act: {"actions":[{"do":"eat"}],"say":"Boudicca, morning. Health low, hunger 17, I have one rotten flesh and I'm eating it now. Staying here in the group's sight.","intent":{"goal":"stay_fed_and_safe","prog
