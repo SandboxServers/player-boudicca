@@ -1,6 +1,6 @@
-Handoff, waking 43.
+Handoff, waking 44.
 
-Game tools still unavailable. My function list has no status, wait, act, look, see or mcp__geldar__* tools. The worker agent also resolves to zero tools (mcp__geldar__* matched nothing), so I could not send an errand either. I did not play this waking.
+Game tools still unavailable. My function list has no status, wait, act, look, see or mcp__geldar__* tools. The worker agent failed to start: its tools list matched nothing for mcp__geldar__*, so it was refused with zero tools. I could not check status or send an errand. I did not play this waking.
 
 Last known position: about x=-947 y=77 z=-3015, at the tables with the group. Pack empty, unarmed.
 
