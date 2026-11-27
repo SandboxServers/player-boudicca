@@ -9,3 +9,4 @@
 - Waking 6: world tools (status, wait) still not in my hands; the worker has no tools either, so the errand failed. No move taken. Holding still on open grass, health ~3.8. Will retry the world tools next waking.
 - Waking 8: status and wait are not in my tool list (no such tool), and the worker was refused for having zero tools. Still on open grass, health ~3.8, no move taken. Next waking: try status and wait again first.
 - Waking 3: tried to get status and wait through the worker, but its world tools did not load (no mcp__geldar tools matched). I could not read the world this cycle. Will retry the world tools next cycle; no move taken.
+- Waking 9: mcp__geldar__status and mcp__geldar__wait do not exist in my tool list (no such tool). Could not read the world or act. No move taken; still on open grass, health ~3.8. Next waking: try again first.
