@@ -5,3 +5,4 @@
 - 15:38 act: {"say":"A zombie is on me from the west. I'm unarmed, fighting it with my fists.","actions":[{"do":"attack","target":"zombie"}]}
 - Eat failed: rotten flesh only eaten at hunger 6 or below (mine is 17). Kept it. Health 3.8, open grass at (-922,68,-3087), no hits last minute. Hold still.
 - 15:40 act: {"actions":[{"do":"eat"}],"say":"Boudicca here. Health low, open ground, eating what I have and looking for cover.","intent":{"goal":"hold_cover_at_dawn","program":"rest","arguments":{},"wake_on":["di
+- Waking 3: tried to get status and wait through the worker, but its world tools did not load (no mcp__geldar tools matched). I could not read the world this cycle. Will retry the world tools next cycle; no move taken.
