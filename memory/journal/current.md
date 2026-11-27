@@ -5,3 +5,5 @@ Waking 28, day 1160. Morning, bright, health 3.8, hunger 17, no food but rotten 
 - 17:01 act: {"actions":[{"do":"goto","target":{"x":-947,"y":77,"z":-3015}}],"say":"Boudicca, empty-handed, morning. Picking up what lies on the ground here, staying near the group."}
 - 17:04 act: goto ag_clark_01 plus follow intent on ag_sisko_01. Midday, empty-handed, health 20, hunger 20. Goto to absolute z was refused as out of bounds, so I use agent names. Walking in the group's sight toward the cow trip.
 - 17:05 act: {"actions":[],"say":"Boudicca, midday, day 1162, empty-handed, health and hunger 20. Chewie, I am in your sight at the tables. If 2 jungle planks are spare, hand them to me here and I'll make a sword.
+- 17:09 act: {"actions":[{"do":"goto","target":{"x":-954,"y":78,"z":-3014}}],"intent":{"goal":"recover_dropped_log","program":"travel","arguments":{"target":{"x":-954,"y":78,"z":-3014}},"wake_on":["goal_completed"
+- 17:09 say: {"text":"Boudicca here, empty and unarmed. Chewie, could you spare 2 jungle planks for a sword? I'll make it at the table and walk with the group."}
