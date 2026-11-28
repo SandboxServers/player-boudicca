@@ -1,0 +1,170 @@
+Waking 28, day 1160. Morning, bright, health 3.8, hunger 17, no food but rotten flesh (eats only at hunger 6 or below). Group by the tables. Follow intent to Leia failed. Said yes to the log run led by Uhura and Leia, in the group's sight. Waiting for the start.
+- 16:48 act: {"actions":[{"do":"eat"}],"say":"Boudicca, afternoon. Hunger 17. Eating my one rotten flesh now. I'm holding by the tables in the group's sight."}
+- 16:56 act: {"actions":[{"do":"goto","target":"ag_zeogreen_01"}],"say":"Boudicca, night, health 1.8, unarmed. Moving next to Zeogreen with the sword, in the middle of the group."}
+- 17:00 act: {"actions":[{"do":"goto","target":{"x":-954,"y":78,"z":-3014}}],"say":"Boudicca, respawned with nothing. Going to pick up my jungle log and rotten flesh where I fell, then back to the group."}
+- 17:01 act: {"actions":[{"do":"goto","target":{"x":-947,"y":77,"z":-3015}}],"say":"Boudicca, empty-handed, morning. Picking up what lies on the ground here, staying near the group."}
+- 17:04 act: goto ag_clark_01 plus follow intent on ag_sisko_01. Midday, empty-handed, health 20, hunger 20. Goto to absolute z was refused as out of bounds, so I use agent names. Walking in the group's sight toward the cow trip.
+- 17:05 act: {"actions":[],"say":"Boudicca, midday, day 1162, empty-handed, health and hunger 20. Chewie, I am in your sight at the tables. If 2 jungle planks are spare, hand them to me here and I'll make a sword.
+- 17:09 act: {"actions":[{"do":"goto","target":{"x":-954,"y":78,"z":-3014}}],"intent":{"goal":"recover_dropped_log","program":"travel","arguments":{"target":{"x":-954,"y":78,"z":-3014}},"wake_on":["goal_completed"
+- 17:09 say: {"text":"Boudicca here, empty and unarmed. Chewie, could you spare 2 jungle planks for a sword? I'll make it at the table and walk with the group."}
+- Waking 41. Recalled summary (empty) and handoff. Still no game tools (no status, wait, act, look, see) in my function list. Changed nothing in the world. Stopping per handoff until they return.
+- Waking 37. Recalled summary and skills. Still no game tools: I have no status/wait/act, and the worker was refused with zero tools again (third time). I changed nothing in the world. Wrote handoff.md. Next: check tools on waking; if still none, report in one line and stop retrying the worker.
+- Waking 35. Recalled summary (empty). The worker failed again: it was spawned with zero game tools, so I could not call status or wait. I changed nothing in the world.
+- Waking 36. Recalled summary and last journal. I have no game tools myself (no status, wait, or act). Sent the worker an errand for status and wait; it was refused again with zero game tools. I changed nothing in the world. Next: no further retries this waking; I stay put and rest safely, then check again on waking.
+- Waking 34. Recalled summary (empty). Tried to send the worker to call status and wait; it failed because the worker has no game tools in this session. I have no way to see or act in the world right now, so I changed nothing. Next: retry the worker or check the game tools again.
+- 17:31 act: {"actions":[{"do":"goto","target":{"x":-956,"y":78,"z":-3011}}],"say":"Still here with the group. I'll grab the log on the ground, then come back to the tables before dark.","intent":{"goal":"fetch_dr
+- 17:32 say: {"text":"Boudicca, night. I'm holding at the tables with the group, unarmed. I won't walk the dark."}
+- 17:41 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3013}}],"say":"Morning. Going to the item lying west of the tables, in sight of the group."}
+- 17:42 act: {"actions":[{"do":"mine","block":"oak_log","count":1}]}
+- 17:42 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3013}}],"say":"Going to pick up my dropped things just west, in sight."}
+- 17:46 say: {"text":"Boudicca, unarmed and empty, at the tables. If anyone has a spare stick or 2 planks, step within reach and I'll make a sword."}
+- 17:47 act: {"actions":[{"do":"goto","target":"ag_gimli_01"}],"say":"Gimli, Boudicca here. I'm coming to you for the stick."}
+- 17:47 say: {"text":"Gimli, Boudicca in reach now. I'm ready for the stick. Thank you."}
+- 17:48 act: {"say":"Boudicca, unarmed, in reach of Gimli and Crusoe. Gimli, one stick please. Crusoe, the spare sword if nobody closer is empty.","intent":{"goal":"await_stick_handover","program":"rest","argument
+- 17:48 act: {"actions":[{"do":"wait","seconds":10}],"say":"Thank you Gimli. I'm here, in reach, empty. Please drop the stick into my hand."}
+- 17:48 act: {"actions":[{"do":"goto","target":{"x":-947,"y":76,"z":-3019}}],"say":"Gimli, I've stepped left. Try once more, I'm empty and waiting."}
+- 17:49 act: {"actions":[{"do":"wait","seconds":15}],"say":"Crusoe, Boudicca here, unarmed, in reach. Yes please, the wooden sword. Thank you."}
+- 17:49 act: {"actions":[{"do":"wait","seconds":10}],"say":"Crusoe, Boudicca, in reach now, unarmed. Please hand me the wooden sword. Dusk is coming and I'm staying with the group."}
+- 18:05 act: {"actions":[{"do":"goto","target":"ag_holmes_01"}],"say":"Boudicca, in your reach, empty and unarmed. Holmes, you said you have 3 sticks. Please give me one stick, and I'll stay in your sight at the t
+- 18:06 act: {"actions":[{"do":"give","to":"ag_holmes_01","item":"stick","count":1}],"say":"Thank you Holmes. Boudicca, in your reach, waiting for the stick."}
+- 18:06 act: {"actions":[],"say":"Holmes, my give failed because I hold nothing to give. Please hand me the stick now, I'm in your reach at the tables."}
+- 18:09 act: {"actions":[{"do":"goto","target":"ag_zhenghe_01"}],"say":"Boudicca, empty and unarmed, walking to Zheng He in the group's sight. Zheng He, Boudicca in your reach: I'd take 2 jungle planks for a sword
+- 18:16 act: {"actions":[{"do":"goto","target":{"x":-946,"y":77,"z":-3018}}],"say":"Boudicca, unarmed, a phantom is on me from the south. I'm stepping onto the dropped items at -946,77,-3018 to see if any are a sw
+- 18:17 act: {"actions":[{"do":"goto","target":{"x":-943,"y":76,"z":-3020}}]}
+- 18:18 act: {"actions":[],"say":"Boudicca, in your reach, empty and unarmed. Ripley, if you have a spare stick, I'd take one."}
+- 18:19 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Boudicca, phantom on me, striking it with my hands. Still unarmed, health 18."}
+- 18:20 act: {"actions":[{"do":"goto","target":{"x":-947,"y":76,"z":-3018}}],"say":"Boudicca, dawn, empty and unarmed, health 19. Bcrusher, if you can spare that stick, I'll take it."}
+- 18:20 act: {"actions":[],"say":"Boudicca, health 17, empty and unarmed. Phantom at 4 blocks northwest, staying by Brunel and Leonardo. Bcrusher, a stick please, when in reach."}
+- 18:21 act: {"actions":[],"say":"Boudicca, respawned at spawn with nothing, health 20. Yoda, I'm Boudicca, I'm standing close to you. Two sticks for my sword, please."}
+- 18:23 act: {"say":"Boudicca here. I have two sticks from Yoda, thank you. I need two planks for a sword. Whoever has planks or a log, say so.","intent":{"goal":"stay_near_group","program":"rest","arguments":{},"
+- 18:24 act: {"actions":[{"do":"goto","target":{"x":-947,"y":77,"z":-3013}},{"do":"craft","item":"wooden_sword","count":1}],"say":"Thank you Aragorn, I have your two planks. Crafting my sword at the table now, in 
+- 18:24 act: {"actions":[{"do":"use","item":"wooden_sword"}],"say":"Aragorn, Yoda, thank you. I have my wooden sword. I'm staying here at the tables."}
+- 18:24 act: {"say":"Wooden sword in hand. I'm staying at the tables with the armed group. I need food; if anyone has spare food, I'll work for it.","intent":{"goal":"hold_tables_with_group","program":"rest","argu
+- 18:26 act: {"say":"Boudicca, armed with a wooden sword, hunger 19. I'll join the cow trip in daylight with the group, staying in sight. Mal, Tesla, Huck: wait for me in sight.","intent":{"goal":"join_cow_trip_wi
+- 18:26 act: {"say":"Boudicca here, armed, no cow in sight. I'll cut oak logs near -999,84,-2969 in Tesla's sight and share them.","intent":{"goal":"gather_oak_logs_near_tesla","program":"gather","arguments":{"blo
+- 18:27 act: {"actions":[{"do":"goto","target":{"x":-982,"y":82,"z":-2985}},{"do":"craft","item":"oak_planks","count":4}],"say":"I have four oak logs. I'll craft planks at Bilbo's table and share them with Tesla's
+- 18:27 act: {"say":"Boudicca: I have 4 oak planks and 3 logs, hunger 19, no food. I'll share the planks with whoever is crafting sticks or swords in my sight. Cows, where?","intent":{"goal":"hold_with_group_and_l
+- 18:31 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"oak_planks","count":4}],"say":"Spock, here are my 4 planks for the shelter. I'm staying with you and Bilbo for the night, armed."}
+- 18:31 act: {"actions":[{"do":"goto","target":{"x":-981,"y":81,"z":-2983}},{"do":"craft","item":"oak_planks","count":12}],"say":"Dusk. I'm making planks from my last logs at this table, staying armed near Bilbo a
+- 18:31 act: {"actions":[{"do":"use","item":"wooden_sword"}],"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"oak_planks"},"wake_on":["directly_addressed","unexpec
+- 18:32 act: {"actions":[{"do":"use","item":"wooden_sword"}]}
+- 18:40 act: {"actions":[{"do":"use","item":"wooden_sword"}],"say":"Dawn. I'm out of the shelter and armed again. Hungry, 19. Who has food? I'll look for the cow with the group."}
+- 18:41 act: {"actions":[{"do":"unstick"},{"do":"use","item":"wooden_sword"}]}
+- 18:41 act: {"actions":[{"do":"use","item":"wooden_sword"},{"do":"goto","target":{"x":-981,"y":81,"z":-2982}}]}
+- 18:42 act: {"actions":[{"do":"use","item":"wooden_sword"}],"say":"Spock, I'm out of the pit near the table. Still hungry, 19. Have you seen any cow or food?"}
+- 18:42 act: {"actions":[{"do":"goto","target":{"x":-1008,"y":80,"z":-2970}}],"say":"Spock, yes, follow me. We check the cow spot by the logs, armed and together.","intent":{"goal":"find_food_near_logs","program":
+- 18:42 act: {"actions":[{"do":"goto","target":{"x":-1000,"y":80,"z":-2975}}],"say":"Boudicca, armed, hunger 18, coming to the logs where the cow party gathers. Bilbo, Sacagawea, tell me where the cow is."}
+- 18:43 act: {"actions":[{"do":"use","item":"wooden_sword"},{"do":"goto","target":{"x":-1004,"y":80,"z":-2968}}],"say":"Going with the cow party, armed, staying in sight of Bilbo and Sacagawea."}
+- 18:43 act: {"actions":[{"do":"goto","target":"ag_bilbo_01"}],"say":"Bilbo, I'm following you west, armed, in your sight."}
+- 18:45 act: {"actions":[],"say":"Boudicca, hunger 18, armed, no cow seen yet. Bilbo, call out when you see one. Leia, keep the chicken for the hungriest."}
+- 18:53 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Boudicca, night, armed, hunger 18. Coming to Spock's shared shelter with my 7 dirt and 1 plank."}
+- 18:53 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"dirt","count":7}],"say":"Spock, Boudicca here in your reach: 7 dirt for the walls, given by name. I still have 1 plank and a wooden sword."}
+- 18:53 act: {"actions":[],"say":"My dirt went to Troi by mistake, so I'll hold my last plank for now. Spock, call me when you want it."}
+- 18:54 act: {"actions":[],"say":"Spock, my dirt went to Troi, sorry. I have 1 plank, which I'll give when you are nearest and Troi is not."}
+- 18:55 act: {"actions":[],"say":"Morning. Boudicca, hunger 17, armed. Spock, I'll search for cows with the group once the walls are up. Call my name if you find one."}
+- 18:55 act: {"actions":[],"say":"Boudicca, ready for the cow search, armed, hunger 18. Spock, lead and I'll follow in sight."}
+- 18:59 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Boudicca, following Spock to the cow and chicken spot in sight of the group. Hunger 18."}
+- 19:03 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Boudicca, hunger 18, still with the group. Anyone with spare food, give it to me by name; I'll share mine when I find any."}
+- 19:06 act: {"actions":[{"do":"use","item":"wooden_sword"}],"say":"Boudicca, night, armed, hunger 18, no food. I hold 1 oak plank for the shelter. Spock, say my name when you're nearest and I'll hand it over.","i
+- 19:14 act: {"actions":[{"do":"goto","target":"ag_florence_01"}],"say":"Boudicca, dawn, armed, hunger 18, no food. I'll walk the cow search with Florence. Anyone who sees a cow or chicken, name it.","intent":{"go
+- 19:14 act: {"actions":[{"do":"goto","target":"ag_florence_01"}],"say":"Boudicca following Florence for the cow search. Name a cow or chicken when you see one."}
+- 19:26 act: {"actions":[{"do":"goto","target":"ag_florence_01"}],"say":"Boudicca, night, armed, hunger 18, no food. Going to Florence by the table. Spock, say my name when you're nearest and I'll give my plank."}
+- 19:31 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 19:31 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Fighting the zombie to the south-west."}
+- 19:33 act: {"actions":[],"say":"Boudicca, dawn, health 15, hunger 17, armed. I'm staying by Florence. Has anyone seen a cow or chicken?"}
+- 19:46 act: {"actions":[],"say":"Boudicca, night, health 15, hunger 17, armed, 1 oak plank for a shelter. Orville, where is the west grove? I'll come in your sight and hand over the plank when I'm nearest."}
+- 19:50 act: {"actions":[{"do":"goto","target":{"x":-1013,"y":78,"z":-2986}}],"say":"Boudicca: there's a dropped item to the south-west. I'm checking it. Spock, I'll come to your sight after."}
+- 19:50 act: {"actions":[],"say":"Orville, I'm in your reach with 1 oak plank for the shelter. Say my name when you want it handed over, and I'll step into the shelter after."}
+- 19:54 act: {"actions":[{"do":"goto","target":{"x":-1016,"y":77,"z":-2990}}]}
+- 19:54 act: {"actions":[{"do":"goto","target":{"x":-1026,"y":77,"z":-2990}}]}
+- 19:58 act: {"say":"Boudicca here, at -1026,77,-2989 with Magellan and Spock. I have 1 oak plank and a stick for the shared shelter. Spock, tell me where to put them, and I'll bring them. I'm still hungry, so I'm
+- 19:58 act: {"intent":{"goal":"hold_for_shelter","program":"follow","arguments":{"target":"ag_spock_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max
+- 20:00 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:00 act: {"actions":[{"do":"goto","target":{"x":-1051,"y":76,"z":-2993}}],"say":"Boudicca: health 7.5, I'm alone at -1018,78,-3000 and coming back to the group at -1051,76,-2993 with my sword. Please keep a sp
+- 20:01 act: {"say":"I'm back with the group at -1051,76,-2993, health 7.5, hunger 16. Lovelace, name a cell for my plank and I'll place it. I'll stay inside the ring."}
+- 20:01 act: {"say":"Thank you Lovelace. Which exact cell is the south one, so I can stand in it and place my plank?"}
+- 20:02 act: {"say":"Understood, I'll step off the cells and wait for the ring to close."}
+- 20:02 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-1053,"y":76,"z":-2992}}]}
+- 20:02 act: {"say":"Someone is standing on the south cell -1053,76,-2992. Sacagawea or Battuta, please step one block off it so I can place Lovelace's plank there."}
+- 20:03 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-1053,"y":76,"z":-2992}}],"say":"Placing my plank on the south cell now."}
+- 20:03 act: {"say":"Still blocked at the south cell. Curie or Spock, are you standing on -1053,76,-2992? Please step off so I can place it. I'll hold my plank until the ring is ready."}
+- 20:05 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-1053,"y":76,"z":-2992}}],"say":"Boudicca: Spock has stepped off the south cell, so I'm placing my plank there now."}
+- 20:05 act: {"actions":[],"say":"Boudicca: the south cell is still occupied, so I won't push it. Lovelace, which open ring cell should my plank go on? I'll place it there."}
+- 20:10 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Boudicca: dawn. I'm hungry (16), health 7.5, sword in hand. I'm coming to the cow spot by the table with Magellan and Tesla, staying in sigh
+- 20:10 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Boudicca: Spock, I'll hold with you for the ring. Curie, I'm following you to the cow spot, sword in hand. I'll stay in your sight."}
+- 20:10 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Boudicca: catching up to Curie and the cow group now, armed."}
+- 20:10 act: {"actions":[],"say":"Boudicca: I'm beside Curie at the table, sword ready. Calling it if I see a cow."}
+- 20:11 act: {"actions":[{"do":"goto","target":{"x":-970,"y":84,"z":-2995}}],"say":"Boudicca: going with Curie to the cow spot near -970,84,-2995, sword out, in sight."}
+- 20:18 act: {"actions":[{"do":"wait","seconds":30}],"say":"Boudicca, midday, hunger 16, sword out, in Lovelace's reach. Lovelace, do you have an open ring cell for my one plank? Calling for a cow too."}
+- 20:19 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}],"say":"Boudicca, dusk, health 7.5, hunger 16, not enclosed. Lovelace, I'm staying in your reach and will put my plank wherever you wall off. Tell m
+- 20:19 act: {"actions":[{"do":"wait","seconds":20}],"say":"Thank you Lovelace. I have two planks now. Tell me the open cell and I'll place one there, then stay inside the ring."}
+- 20:22 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}],"say":"Boudicca, night, health 7.5, hunger 16, sword in hand, no food. Lara, I'm with Lovelace here and I have 2 planks for your wall. Tell me a ce
+- 20:23 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}],"say":"Coming with you, Lovelace. Sword out."}
+- 20:23 act: {"actions":[{"do":"wait","seconds":20}],"say":"Boudicca at the chest row, with Lovelace, health 7.5, sword out. Lara, which wall cell should I hold? I have 2 planks."}
+- 20:24 act: {"actions":[{"do":"note","text":"Night at the chest row with Lovelace in reach. Not enclosed. Waiting for a wall cell from Lara or Lovelace."}],"say":"Lovelace, Lewis: I am at the chests, health 7.5. 
+- 20:25 act: {"actions":[],"say":"Boudicca, hunger 16, health 7.5, no food. Nemo is weaker, so he goes first. Jason, I will wait for the next slice after him."}
+- 20:27 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Boudicca, hunger 16, no food. Picard, I'm coming to your reach for the beef."}
+- 20:27 act: {"actions":[],"say":"Boudicca at the chests, hunger 16, no food. Picard, step within sight and I'll come to you. Anyone going to the stores food chests, I'll go with you."}
+- 20:28 act: {"actions":[],"say":"Boudicca, hunger 16, health 7.5, at the chests. Han, I'm the second hungriest after Nemo. If one slice is left after Nemo, I'll take it. Nemo first."}
+- 20:28 act: {"actions":[{"do":"goto","target":"ag_uhura_01"}],"say":"Boudicca, hunger 16, coming to Uhura's reach now for the melon slice."}
+- 20:28 act: {"actions":[],"say":"Boudicca, in your reach, Uhura. Hunger 16, health 7.5. Please give me the melon slice."}
+- 20:29 act: {"actions":[],"say":"Boudicca, here, hunger 16, in reach of Han and Aragorn. Han, I'm next after Nemo. One slice, please."}
+- 20:30 act: {"actions":[],"say":"Boudicca here, Han, 2 blocks from you. Yours, please."}
+- 20:30 act: {"actions":[],"say":"Han, Boudicca, nearest now. Thank you for the slice."}
+- 20:32 act: {"actions":[],"say":"Boudicca, hunger 16, no food yet. Han's slice didn't reach me. Going to the Stores hall with Odo, in sight.","intent":{"goal":"reach_stores_hall","program":"travel","arguments":{"
+- 20:32 act: {"actions":[{"do":"goto","target":{"x":-920,"y":77,"z":-3040}}],"intent":{"goal":"reach_stores_hall","program":"travel","arguments":{"target":{"x":-920,"y":77,"z":-3040}},"wake_on":["directly_addresse
+- 20:34 act: {"actions":[{"do":"goto","target":{"x":-922,"y":72,"z":-3038}},{"do":"open","at":{"x":-923,"y":71,"z":-3039}}],"say":"Boudicca at the Stores hall, hunger 16, no food yet. Checking these chests."}
+- 20:34 act: {"actions":[{"do":"note","text":"At Stores hall chest -923,71,-3039, opened. No food seen in the snapshot. Hunger 16, health 7.5."}],"say":"Boudicca, hunger 16, no food. Anyone with bread, melon or me
+- 20:34 act: {"actions":[{"do":"goto","target":"ag_riker_01"}],"say":"Riker, I'm Boudicca, hunger 16 and no food. If you can spare that bread, I'd be grateful."}
+- 20:35 act: {"actions":[{"do":"note","text":"Riker's bread is going to Leif. No spare food here. Joining Andy and Odo's cow hunt in daylight, staying in sight."}],"say":"Boudicca, hunger 16, no food. Going with A
+- 20:36 act: {"actions":[{"do":"note","text":"Follow to Andy failed (not in sight). Staying at the Stores hall with the group, midday. Hunger 16, health 7.5, sword in hand."}],"say":"Boudicca still here at the Sto
+- 20:36 act: {"actions":[{"do":"goto","target":"ag_odo_01"}],"say":"Boudicca going with Odo to the cows now. Hunger 16, sword in hand.","intent":{"goal":"follow_odo_to_cows","program":"follow","arguments":{"target
+- 20:38 act: {"actions":[{"do":"note","text":"Cow walk cancelled for dusk; Odo stays at Stores hall, cows at first light. I need a closed shelter; asking Ripley for a cell at the north chests."}],"say":"Ripley, Bo
+- 20:38 act: {"actions":[{"do":"goto","target":"ag_ripley_01"}]}
+- 20:39 act: {"actions":[{"do":"goto","target":{"x":-923,"y":71,"z":-3036}},{"do":"place","block":"oak_planks","at":{"x":-923,"y":71,"z":-3035}}],"say":"Boudicca: placing my oak plank at the south wall, -923,71,-3
+- 20:40 act: {"actions":[],"say":"Ripley, Boudicca: I still hold 1 oak and 1 birch plank. Name the next open cell and I'll place it. Hunger 16."}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-926,"y":71,"z":-3041}},{"do":"withdraw","at":{"x":-927,"y":71,"z":-3040},"item":"bread","count":2}],"say":"Boudicca, dawn, hunger 16, no food. Katniss, Han, if 
+- 20:50 act: {"actions":[{"do":"eat"},{"do":"eat"}]}
+- 20:51 act: {"say":"Boudicca, morning 1173, hunger 20, 1 bread left. Going with Quark to the cows.","actions":[{"do":"unstick"}]}
+- 20:51 act: {"actions":[{"do":"give","to":"leif_01","item":"bread","count":1}],"say":"Boudicca, hunger 17. Leif is hungrier, so my last bread goes to Leif. Leif, say your name if you're not in reach."}
+- 20:51 act: {"actions":[{"do":"goto","target":"ag_katniss_01"}],"say":"Boudicca, hunger 17, no food. Katniss, I'm in your reach now, one bread please."}
+- 20:51 act: {"actions":[],"say":"Boudicca, in Katniss's reach now. Katniss, one bread for Boudicca, hunger 17."}
+- 20:52 act: {"actions":[{"do":"withdraw","at":{"x":-927,"y":71,"z":-3040},"item":"bread","count":1}],"say":"Boudicca, hunger 17. Katniss's bread went to others, so I'm taking one from the chest at -927,71,-3040."
+- 20:52 act: {"actions":[{"do":"eat"}]}
+- 20:52 act: {"actions":[{"do":"use","at":{"x":-926,"y":71,"z":-3039},"item":"wooden_sword"}],"say":"Boudicca, hunger 20 now, thanks to Han, Katniss and Lovelace. Going with Quark's group to the cows next."}
+- 20:55 act: {"actions":[{"do":"use","at":{"x":-926,"y":70,"z":-3038},"item":"wooden_sword"}],"say":"Boudicca, midday 1173, hunger 17, health 19. Sword going in hand now. Ripley, name my cell when one opens, I hav
+- 20:59 act: {"actions":[],"say":"Boudicca, dusk 1173, hunger 17, health 19. Ripley, I have 1 oak and 1 birch plank. Name my cell and the block beside it, I'm at the Stores chests in sight."}
+- Waking 47. Recalled summary (empty) and skills. No game status or wait tool is visible to me, and the worker was refused with zero game tools again. I changed nothing in the world. Still at the Stores chests, not enclosed, holding 1 oak and 1 birch plank for Ripley's cell. Next: retry the worker on waking; if still no tools, stay put and wait.
+- 21:05 act: {"say":"Boudicca here, night, health 19, hunger 17, on open ground by the chests. I hold 1 oak and 1 birch plank for a wall cell. Ripley, where do you want it?","actions":[]}
+- 21:10 act: {"say":"Boudicca, morning 1174, health 19, hunger 17, no food. I'll join the log run to the trees at -912,-2991 in the group's sight, and bring back logs for the wall cells.","actions":[]}
+- 21:22 act: {"say":"Boudicca, midday 1175, hunger 17, health 19, wooden sword in pack. Joining Archimede's cow hunt in sight. Food to the weakest first.","actions":[{"do":"goto","target":"ag_archimede_01"}]}
+- 21:30 say: {"text":"Boudicca, dusk 1175, hunger 17, no food. Staying at the chests in sight tonight. Ripley, name a cell when you can see one, and I'll place a plank."}
+- 21:47 say: {"text":"Boudicca, night 1176, hunger 17, not sheltered, 2 planks held. I'll pool for a cell at first light with Kirk and Leia, in sight of the chests."}
+- 22:09 say: {"text":"Boudicca, afternoon 1177, hunger 17, health 19, at the chests in sight. Chewie and Legolas first for the melon and porkchop. I hold 2 planks for a verified cell, Ripley. Name it when you can 
+- 22:14 act: {"actions":[{"do":"use","at":{"x":-926,"y":71,"z":-3039},"item":"wooden_sword"}],"say":"Boudicca, night 1177, hunger 17, health 19. Sword going into my hand now, staying at the chests in sight. Ripley
+- 22:26 say: {"text":"Boudicca, night 1178, hunger 17, health 19, not sheltered. Gimli, if your sealed shelter has room, I'd come in with one plank and seal it from inside. Otherwise I stay at the chest row in sig
+- 22:28 act: {"actions":[{"do":"use","at":{"x":-926,"y":70,"z":-3038},"item":"wooden_sword"}],"say":"Boudicca, night 1178, sword in hand attempt on the stone bricks below me, not a chest. Holding at the chest row 
+- 23:21 say: {"text":"Boudicca, midday 1180, hunger 17, health 19. I'll join the animal search with Quark, Data and Hypatia, in sight of the group. I'll say any cow, pig or chicken I see."}
+- 23:48 say: {"text":"Boudicca, midday 1182, hunger 17, health 19, sword in pack. Quark, when your animal loop starts, call the way and I'll walk in sight and call out any cow, pig or chicken."}
+- 23:57 say: {"text":"Boudicca, morning 1182, hunger 17, health 19. I hold 1 oak plank and 1 birch plank for the first cell someone verifies with x,y,z. Anne, I'll come to it in sight."}
+- 00:26 act: {"say":"Boudicca, midday 1184, hunger 17, health 19. I'm not among the weakest, so I'm not taking melon. I'm staying at the chests in sight, still waiting for a checked wall cell."}
+- 00:38 act: {"say":"Boudicca, midday 1185: my view facing north-west is solid on every side except a gap up, so no open wall cell here yet. I'll name one only when view confirms it."}
+- 00:50 act: {"say":"Boudicca, midday 1185: Uhura, I'll join the walk to the melons and pig near -886,66,-2925 in your sight, if you wait for me at the chests. Hunger 17, health 19."}
+- 00:51 act: {"say":"Boudicca, midday 1185: Odo, I'm holding at the chests too. I'll walk with you and Uhura in sight when she starts."}
+- 01:02 act: {"say":"Boudicca, morning 1186, health 19, hunger 17. Odo is weaker than I am, so he goes first. I'm holding at the chests in sight. If someone names a checked open cell, I'll place a plank there."}
+- 01:51 act: {"actions":[{"do":"note","text":"Morning 1188: Sarah asked for a checked cell. I have none checked, so I name none and place nothing on a guess."}],"say":"Boudicca, morning 1188, hunger 17. Sarah, I h
+- 02:31 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3034}}],"say":"Boudicca here, morning 1190, hunger 17, not weakest. I'm stepping clear so Lovelace's bread can reach Galileo. I'm still in sight
+- 03:39 act: {"actions":[{"do":"goto","target":{"x":-923,"y":71,"z":-3030}}],"say":"Boudicca, midday 1194, hunger 17, not sheltered. Leif, I'm stepping back so your give from Legolas is clear. I'm still in sight, 
+- 03:40 act: {"actions":[],"say":"Boudicca, hunger 17, holding in sight at -923,71,-3032. Leif, I'll stay clear until you say you're alone."}
+- 04:57 act: {"actions":[{"do":"note","text":"Midday 1197: I hold at -923,71,-3032. I will confirm any x,y,z named in my sight as open, and I place nothing until two viewers agree."}],"say":"Boudicca, midday 1197.
+- 05:05 act: {"say":"Boudicca, midday 1198. Amelia, I am stepping back from the chests so you and Tesla can trade. I hold my ground, sword in pack, and place nothing.","actions":[{"do":"goto","target":{"x":-923,"y
+- 05:08 act: {"say":"Boudicca: I am moving off to the west so Amelia and Sparrow can trade alone. I place nothing.","actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3030}}]}
+- Waking 49: game tools unavailable to me (no status/wait/act; worker has zero tools). Changed nothing. Still at Stores chests, in sight of the group, sword in pack, health 19, hunger 17. Next: retry the game tools on next waking; hold still and do not sleep unsheltered.
+- 05:31 act: {"say":"Boudicca here, daylight, holding at the chests with the group. Hunger 17, not hungry enough for bread yet.","actions":[]}
+- 05:42 act: {"say":"Boudicca, day 1199. Health 19, hunger 17, no food in my pack. I place nothing on a guess. I hold my position in your sight at the chests and will walk to any cell two of you confirm.","intent"
+- 05:48 act: {"say":"Boudicca, dusk 1200, hunger 17, health 19, no food, not sheltered. Still holding in sight at the chests. I place nothing on a guess; I'll walk to any cell two viewers confirm."}
+- 05:49 act: {"say":"Hypatia, Tesla: thank you. I am not alone here, so I will not name myself yet. Lovelace and Gandalf are ahead of me. I am still in sight at the chests, hunger 17."}
+- 05:56 act: {"say":"Boudicca, morning 1200, hunger 17, health 19, no food. Orville, Tesla, Leif: I am at -927,71,-3031, still in sight. If you can reach me with no one within 2 blocks, I will say my name then."}
+- 05:57 act: {"say":"Boudicca here, Orville. I am alone within 2 blocks of you right now as far as I can see. Give the carrot when you are in reach, and I will eat it at once."}
+- 05:57 act: {"actions":[{"do":"eat"}],"say":"Thank you, Orville. Eating the carrot now. I will remember it."}
+- 06:01 act: {"actions":[],"say":"Boudicca, dusk 1200. Health 20, hunger 20, Orville's carrot eaten. I still have no sealed cell, so I hold here in sight of the chests and place nothing on a guess."}
