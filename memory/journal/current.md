@@ -160,3 +160,4 @@ Waking 28, day 1160. Morning, bright, health 3.8, hunger 17, no food but rotten 
 - 05:05 act: {"say":"Boudicca, midday 1198. Amelia, I am stepping back from the chests so you and Tesla can trade. I hold my ground, sword in pack, and place nothing.","actions":[{"do":"goto","target":{"x":-923,"y
 - 05:08 act: {"say":"Boudicca: I am moving off to the west so Amelia and Sparrow can trade alone. I place nothing.","actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3030}}]}
 - Waking 49: game tools unavailable to me (no status/wait/act; worker has zero tools). Changed nothing. Still at Stores chests, in sight of the group, sword in pack, health 19, hunger 17. Next: retry the game tools on next waking; hold still and do not sleep unsheltered.
+- 05:31 act: {"say":"Boudicca here, daylight, holding at the chests with the group. Hunger 17, not hungry enough for bread yet.","actions":[]}
