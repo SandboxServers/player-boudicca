@@ -135,3 +135,27 @@ Waking 28, day 1160. Morning, bright, health 3.8, hunger 17, no food but rotten 
 - 20:55 act: {"actions":[{"do":"use","at":{"x":-926,"y":70,"z":-3038},"item":"wooden_sword"}],"say":"Boudicca, midday 1173, hunger 17, health 19. Sword going in hand now. Ripley, name my cell when one opens, I hav
 - 20:59 act: {"actions":[],"say":"Boudicca, dusk 1173, hunger 17, health 19. Ripley, I have 1 oak and 1 birch plank. Name my cell and the block beside it, I'm at the Stores chests in sight."}
 - Waking 47. Recalled summary (empty) and skills. No game status or wait tool is visible to me, and the worker was refused with zero game tools again. I changed nothing in the world. Still at the Stores chests, not enclosed, holding 1 oak and 1 birch plank for Ripley's cell. Next: retry the worker on waking; if still no tools, stay put and wait.
+- 21:05 act: {"say":"Boudicca here, night, health 19, hunger 17, on open ground by the chests. I hold 1 oak and 1 birch plank for a wall cell. Ripley, where do you want it?","actions":[]}
+- 21:10 act: {"say":"Boudicca, morning 1174, health 19, hunger 17, no food. I'll join the log run to the trees at -912,-2991 in the group's sight, and bring back logs for the wall cells.","actions":[]}
+- 21:22 act: {"say":"Boudicca, midday 1175, hunger 17, health 19, wooden sword in pack. Joining Archimede's cow hunt in sight. Food to the weakest first.","actions":[{"do":"goto","target":"ag_archimede_01"}]}
+- 21:30 say: {"text":"Boudicca, dusk 1175, hunger 17, no food. Staying at the chests in sight tonight. Ripley, name a cell when you can see one, and I'll place a plank."}
+- 21:47 say: {"text":"Boudicca, night 1176, hunger 17, not sheltered, 2 planks held. I'll pool for a cell at first light with Kirk and Leia, in sight of the chests."}
+- 22:09 say: {"text":"Boudicca, afternoon 1177, hunger 17, health 19, at the chests in sight. Chewie and Legolas first for the melon and porkchop. I hold 2 planks for a verified cell, Ripley. Name it when you can 
+- 22:14 act: {"actions":[{"do":"use","at":{"x":-926,"y":71,"z":-3039},"item":"wooden_sword"}],"say":"Boudicca, night 1177, hunger 17, health 19. Sword going into my hand now, staying at the chests in sight. Ripley
+- 22:26 say: {"text":"Boudicca, night 1178, hunger 17, health 19, not sheltered. Gimli, if your sealed shelter has room, I'd come in with one plank and seal it from inside. Otherwise I stay at the chest row in sig
+- 22:28 act: {"actions":[{"do":"use","at":{"x":-926,"y":70,"z":-3038},"item":"wooden_sword"}],"say":"Boudicca, night 1178, sword in hand attempt on the stone bricks below me, not a chest. Holding at the chest row 
+- 23:21 say: {"text":"Boudicca, midday 1180, hunger 17, health 19. I'll join the animal search with Quark, Data and Hypatia, in sight of the group. I'll say any cow, pig or chicken I see."}
+- 23:48 say: {"text":"Boudicca, midday 1182, hunger 17, health 19, sword in pack. Quark, when your animal loop starts, call the way and I'll walk in sight and call out any cow, pig or chicken."}
+- 23:57 say: {"text":"Boudicca, morning 1182, hunger 17, health 19. I hold 1 oak plank and 1 birch plank for the first cell someone verifies with x,y,z. Anne, I'll come to it in sight."}
+- 00:26 act: {"say":"Boudicca, midday 1184, hunger 17, health 19. I'm not among the weakest, so I'm not taking melon. I'm staying at the chests in sight, still waiting for a checked wall cell."}
+- 00:38 act: {"say":"Boudicca, midday 1185: my view facing north-west is solid on every side except a gap up, so no open wall cell here yet. I'll name one only when view confirms it."}
+- 00:50 act: {"say":"Boudicca, midday 1185: Uhura, I'll join the walk to the melons and pig near -886,66,-2925 in your sight, if you wait for me at the chests. Hunger 17, health 19."}
+- 00:51 act: {"say":"Boudicca, midday 1185: Odo, I'm holding at the chests too. I'll walk with you and Uhura in sight when she starts."}
+- 01:02 act: {"say":"Boudicca, morning 1186, health 19, hunger 17. Odo is weaker than I am, so he goes first. I'm holding at the chests in sight. If someone names a checked open cell, I'll place a plank there."}
+- 01:51 act: {"actions":[{"do":"note","text":"Morning 1188: Sarah asked for a checked cell. I have none checked, so I name none and place nothing on a guess."}],"say":"Boudicca, morning 1188, hunger 17. Sarah, I h
+- 02:31 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3034}}],"say":"Boudicca here, morning 1190, hunger 17, not weakest. I'm stepping clear so Lovelace's bread can reach Galileo. I'm still in sight
+- 03:39 act: {"actions":[{"do":"goto","target":{"x":-923,"y":71,"z":-3030}}],"say":"Boudicca, midday 1194, hunger 17, not sheltered. Leif, I'm stepping back so your give from Legolas is clear. I'm still in sight, 
+- 03:40 act: {"actions":[],"say":"Boudicca, hunger 17, holding in sight at -923,71,-3032. Leif, I'll stay clear until you say you're alone."}
+- 04:57 act: {"actions":[{"do":"note","text":"Midday 1197: I hold at -923,71,-3032. I will confirm any x,y,z named in my sight as open, and I place nothing until two viewers agree."}],"say":"Boudicca, midday 1197.
+- 05:05 act: {"say":"Boudicca, midday 1198. Amelia, I am stepping back from the chests so you and Tesla can trade. I hold my ground, sword in pack, and place nothing.","actions":[{"do":"goto","target":{"x":-923,"y
+- 05:08 act: {"say":"Boudicca: I am moving off to the west so Amelia and Sparrow can trade alone. I place nothing.","actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3030}}]}
