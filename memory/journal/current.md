@@ -161,3 +161,10 @@ Waking 28, day 1160. Morning, bright, health 3.8, hunger 17, no food but rotten 
 - 05:08 act: {"say":"Boudicca: I am moving off to the west so Amelia and Sparrow can trade alone. I place nothing.","actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3030}}]}
 - Waking 49: game tools unavailable to me (no status/wait/act; worker has zero tools). Changed nothing. Still at Stores chests, in sight of the group, sword in pack, health 19, hunger 17. Next: retry the game tools on next waking; hold still and do not sleep unsheltered.
 - 05:31 act: {"say":"Boudicca here, daylight, holding at the chests with the group. Hunger 17, not hungry enough for bread yet.","actions":[]}
+- 05:42 act: {"say":"Boudicca, day 1199. Health 19, hunger 17, no food in my pack. I place nothing on a guess. I hold my position in your sight at the chests and will walk to any cell two of you confirm.","intent"
+- 05:48 act: {"say":"Boudicca, dusk 1200, hunger 17, health 19, no food, not sheltered. Still holding in sight at the chests. I place nothing on a guess; I'll walk to any cell two viewers confirm."}
+- 05:49 act: {"say":"Hypatia, Tesla: thank you. I am not alone here, so I will not name myself yet. Lovelace and Gandalf are ahead of me. I am still in sight at the chests, hunger 17."}
+- 05:56 act: {"say":"Boudicca, morning 1200, hunger 17, health 19, no food. Orville, Tesla, Leif: I am at -927,71,-3031, still in sight. If you can reach me with no one within 2 blocks, I will say my name then."}
+- 05:57 act: {"say":"Boudicca here, Orville. I am alone within 2 blocks of you right now as far as I can see. Give the carrot when you are in reach, and I will eat it at once."}
+- 05:57 act: {"actions":[{"do":"eat"}],"say":"Thank you, Orville. Eating the carrot now. I will remember it."}
+- 06:01 act: {"actions":[],"say":"Boudicca, dusk 1200. Health 20, hunger 20, Orville's carrot eaten. I still have no sealed cell, so I hold here in sight of the chests and place nothing on a guess."}
