@@ -1,2 +1,13 @@
 # Journal
 - 06:20 act: said morning status at the Stores chests (-927,71,-3031). Health 20, hunger 20, in sight of group. Declined melon, not weak. Next: equip wooden sword on plain ground, then wait for a verified shelter cell.
+- 06:22 act: {"say":"Boudicca, midday 1201. Health 20, hunger 20. Holding 1 oak plank, 1 birch plank, a stick and a wooden sword. Still in sight at the Stores. Ripley or Lovelace: name one x,y,z that two viewers c
+- 06:27 act: {"actions":[],"say":"Boudicca, day 1202. Anne, I can be a second viewer near the chests. Name x,y,z and I will look and tell only what I see. I still hold 1 oak and 1 birch plank for your roof."}
+- 06:47 act: {"actions":[],"say":"Boudicca, midday 1203, health 20, hunger 20. Anne, I cannot see -920,71,-3033 from here, so I do not confirm it. I hold 2 planks for two checked viewers. Data is weakest; I have n
+- 06:59 act: {"actions":[],"say":"Boudicca, morning 1203. Health 20, hunger 20. I hold 1 oak plank, 1 birch plank. Anyone who can see a cell open and walled, name the exact x,y,z and I will place there in sight."}
+- 07:03 act: {"actions":[],"say":"Boudicca: Katniss, I will bring my 2 planks to your named cell once two viewers confirm it. Name the x,y,z. I hold no food, so Data needs the bread first."}
+- 07:04 act: {"actions":[],"say":"Boudicca: I hear the cell -933,74,-3023. I will place my planks there only after Eowyn or Obi-Wan confirm it open and walled. I am waiting."}
+- 07:05 act: {"actions":[],"say":"Boudicca, dusk 1204. The cell -933,74,-3023 has a west gap, so I will not place there tonight. I stay at the chests in sight and will not walk in the dark. My 2 planks wait for a 
+- 07:13 act: {"actions":[{"do":"goto","target":{"x":-929,"y":73,"z":-3027}}],"say":"Boudicca walking to -929,73,-3027 in daylight to view -933,74,-3023 with Eowyn and Frodo. I will say only what I see."}
+- 07:13 act: {"actions":[],"say":"Boudicca at -929,73,-3027, midday 1204. My view is full of players and grass, so I cannot see -932,74,-3024 or -931,74,-3024 as open. I confirm nothing and place nothing."}
+- 07:50 act: {"actions":[{"do":"note","text":"Midday 1206: Boudicca holds 1 oak and 1 birch plank. Place only on an exact x,y,z that two viewers confirm open and walled, in sight."}],"say":"Boudicca, midday 1206, 
+- 09:23 act: {"actions":[{"do":"goto","target":{"x":-924,"y":73,"z":-3027}}],"say":"Boudicca, afternoon 1210: stepping 5 blocks east so Sparrow can take Hypatia's porkchop alone. I hold no food and place nothing."
